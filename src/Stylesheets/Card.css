@@ -1,0 +1,87 @@
+section{
+    background-color: rgb(231, 231, 231);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: Redhat;
+    src: url(../Fonts/RedHatDisplay-VariableFont_wght.ttf);
+}
+
+.hero{
+    border-radius: 20px 20px 0 0;
+}
+
+.card-cont{
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.acheuno{
+    margin: 20px 0 20px 0;
+    font-family: Redhat;
+    font-weight: 500;
+}
+
+.parrafo{
+    width: 300px;
+    color: rgb(129, 129, 129);
+    font-family: Redhat;
+    font-size: 16px;
+    text-align: center;
+}
+
+.cosas{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(228, 226, 226, 0.493);
+    border-radius: 20px;
+    padding: 10px 5px 10px 5px;
+    margin: 20px 0 ;
+}
+
+.p2{    
+    font-family: Redhat;
+}
+
+a{
+    font-family: Redhat;
+}
+
+.b1{
+    width: 250px;
+    margin-top: 20px;
+    padding: 1rem;
+    font-family: Redhat;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(118, 85, 238);
+    color: white;
+    cursor: pointer ;
+}
+
+.b2{
+    width: 250px;
+    margin-top: 20px;
+    padding: 1rem;
+    font-family: Redhat;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer ;
+}
+
+b1:hover{
+    background-color: rgb(152, 135, 216);
+}
